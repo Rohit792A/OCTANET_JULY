@@ -1,0 +1,209 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00fb8; /* Text color */
+    background-color: #b9f1e1; /* Background color */
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn.red {
+    background-color: #ff4c4c;
+    border-radius: 4px;
+  }
+  
+  .btn.blue {
+    background-color: #3498db;
+    border-radius: 4px;
+  }
+  
+  .about,
+  .features,
+  .testimonials,
+  .subscribe,
+  .social {
+    padding: 60px 0;
+    text-align: center;
+    color: #020202; /* Text color */
+    background-color: #b9f1e1; /* Background color */
+    background-image: linear-gradient(315deg, #b9f1e1 0%, #b9ebf4 74%);
+    
+  }
+  
+  .about h3,
+  .features h3,
+  .testimonials h3,
+  .subscribe h3,
+  .social h3 {
+    color: rgb(79,22,124);
+    font-size: 36px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .about p,
+  .features p,
+  .testimonials p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .features ul li {
+    color: rgb(255,85,118);
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials .testimonial {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .testimonial-text {
+    width: 50%;
+  }
+  
+  .testimonial-text p {
+    margin-bottom: 10px;
+  }
+  
+  .subscribe form {
+    margin-top: 30px;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  .subscribe input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .social .socicons {
+    margin-top: 30px;
+  }
+  
+  .social .socicons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+  }
+  
+  /* Scroll to top button */
+  .scroll-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-up:hover {
+    background-color: #555;
+  }
+  
+
+  body {
+    background-color: #f2f2f2;
+  }
+  .body {
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+    
